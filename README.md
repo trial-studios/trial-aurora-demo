@@ -1,16 +1,63 @@
-# React + Vite
+# Aurora — Premium Video Editing Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium **multilingual video editing showcase website** built by **Trial Studios** for portfolio presentation, trust-building, and client demonstrations.
 
-Currently, two official plugins are available:
+Aurora is designed as a **high-end fictional editor brand demo page** featuring premium UI, animated sections, multilingual support, package showcases, portfolio previews, and CTA-based lead capture using localStorage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+* Premium animated hero section
+* Multilingual language selector
+* Portfolio showcase cards
+* About + experience + differentiator sections
+* Service packages
+* CTA contact buttons
+* LocalStorage demo lead capture
+* SEO-ready React structure
+* GitHub demo friendly
+* Vite + React optimized architecture
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🌍 Supported Languages
 
-## Expanding the ESLint configuration
+* English
+* 日本語
+* 中文
+* हिन्दी
+* Bahasa Indonesia
+* Filipino
+* ไทย
+* 한국어
+* اردو
+* Español
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+* React
+* Vite
+* JavaScript
+* CSS3
+* localStorage API
+
+## ⚠️ Disclaimer
+
+This project is a **fictional portfolio and trust-building demo** created by Trial Studios.
+
+All names, contacts, packages, pricing, and brand representations are placeholder/demo content unless connected to a production deployment.
+
+This repository is intended for:
+
+* portfolio use
+* resume proof
+* premium UI showcase
+* client trust demonstrations
+
+## © License & Usage
+
+All rights reserved by **Trial Studios**.
+Code may be viewed for portfolio demonstration only.
+Reuse, redistribution, resale, or commercial duplication without permission is prohibited.
+
+---
+
+**Version:** v1.0.0
+**Studio:** Trial Studios
