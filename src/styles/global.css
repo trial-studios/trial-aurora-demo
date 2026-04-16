@@ -1,0 +1,138 @@
+:root {
+  --bg: #050505;
+  --card: rgba(255,255,255,0.06);
+  --text: #ffffff;
+  --muted: rgba(255,255,255,0.65);
+  --border: rgba(255,255,255,0.12);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, sans-serif;
+}
+
+.ts-container {
+  width: min(1200px, 92%);
+  margin: auto;
+}
+
+/* HEADER */
+.ts-header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  backdrop-filter: blur(20px);
+  background: rgba(0,0,0,0.45);
+  border-bottom: 1px solid var(--border);
+}
+
+.ts-header-inner,
+.ts-footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.ts-logo {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 0.25em;
+}
+
+.ts-nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.ts-nav a {
+  color: var(--muted);
+  text-decoration: none;
+  transition: 0.25s ease;
+}
+
+.ts-nav a:hover {
+  color: white;
+}
+
+/* LANGUAGE */
+.ts-lang-wrap {
+  position: relative;
+}
+
+.ts-lang-btn {
+  background: rgba(255,255,255,0.06);
+  color: white;
+  border: 1px solid var(--border);
+  padding: 0.8rem 1rem;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.ts-lang-dropdown {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 12px);
+  width: 280px;
+  background: rgba(10, 10, 10, 0.92);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 1rem;
+  backdrop-filter: blur(18px);
+  box-shadow: 0 20px 60px rgba(255, 255, 255, 0.08);
+}
+
+.ts-lang-search {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.04);
+  color: white;
+  margin-bottom: 0.8rem;
+}
+
+.ts-lang-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-height: 260px;
+  overflow-y: auto;
+}
+
+.ts-lang-option {
+  width: 100%;
+  text-align: left;
+  padding: 0.85rem 1rem;
+  border-radius: 14px;
+  background: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.ts-lang-option.active,
+.ts-lang-option:hover {
+  background: rgba(255,255,255,0.08);
+  box-shadow: 0 0 24px rgba(255,255,255,0.18);
+}
+
+/* FOOTER */
+.ts-footer {
+  border-top: 1px solid var(--border);
+  margin-top: 4rem;
+}
+
+.ts-footer-inner {
+  padding: 2rem 0;
+  color: var(--muted);
+}
