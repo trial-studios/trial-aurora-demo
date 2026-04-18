@@ -38,6 +38,10 @@ Aurora is designed as a **high-end fictional editor brand demo page** featuring 
 * CSS3
 * localStorage API
 
+## Live Demo:
+https://trial-studios.github.io/trial-aurora-demo/
+
+
 ## ⚠️ Disclaimer
 
 This project is a **fictional portfolio and trust-building demo** created by Trial Studios.
